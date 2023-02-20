@@ -3,6 +3,7 @@
   padding:0;
   box-sizing: border-box;
   font-family: 'rubik',sans-serif;
+  transition: 0.5s;
   
 }
 :root{
@@ -394,10 +395,10 @@ background: var(--green);
 /*-------------review page end---------*/
 
 
-/*.contact{
+.contact{
   display: flex;
   flex-direction: row;
-}*/
+}
 .contact .row{
   display: flex; 
   align-items:center;
@@ -571,6 +572,11 @@ html{
  margin-top:2rem; 
 
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
 }
 
 
@@ -579,5 +585,8 @@ html{
   font-size: 55%;
 }
 
-
+.contact {
+  display: flex;
+  flex-direction: column;
+}
 }
