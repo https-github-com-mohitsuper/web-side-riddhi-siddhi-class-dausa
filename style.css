@@ -239,7 +239,7 @@ transition: 0.5s color;
   border-radius:.9rem;
   text-align: center;
   margin-bottom: 4rem;
-  
+  padding:1rem;
 }
  .course  .slide h3{
   text-align: center;
@@ -251,7 +251,9 @@ transition: 0.5s color;
 
 .course .slide img{
 height: 50rem;
-width: 100%;}
+width: 100%;
+  margin-top:0;
+}
 
  .course .slide p{
 color:var(--light-white);
