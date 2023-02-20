@@ -239,8 +239,7 @@ transition: 0.5s color;
   border-radius:.9rem;
   text-align: center;
   margin-bottom: 4rem;
-    padding: 1rem;
-
+  
 }
  .course  .slide h3{
   text-align: center;
@@ -252,10 +251,7 @@ transition: 0.5s color;
 
 .course .slide img{
 height: 50rem;
-width: 100%;
-margin-top: 0;
-
-}
+width: 100%;}
 
  .course .slide p{
 color:var(--light-white);
@@ -396,10 +392,10 @@ background: var(--green);
 /*-------------review page end---------*/
 
 
-.contact{
+/*.contact{
   display: flex;
   flex-direction: row;
-}
+}*/
 .contact .row{
   display: flex; 
   align-items:center;
@@ -573,11 +569,6 @@ html{
  margin-top:2rem; 
 
 }
-
-.contact {
-  display: flex;
-  flex-direction: column;
-}
 }
 
 
@@ -586,8 +577,5 @@ html{
   font-size: 55%;
 }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-}
+
 }
