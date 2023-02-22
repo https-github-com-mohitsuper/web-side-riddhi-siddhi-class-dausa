@@ -492,8 +492,8 @@ font-size: 1.5rem;
 
 .footer .share{
     background: var(--light-bg);
-    padding-left:40%;
     padding-top: 1rem;
+    text-align: center;
         padding-bottom: 1rem;
 
     
